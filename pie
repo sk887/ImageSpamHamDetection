@@ -1,0 +1,5 @@
+read str
+tesseract str out
+./converter <out.txt > a1
+./stemmer <a1.txt > b1
+./classifier <b1.txt
